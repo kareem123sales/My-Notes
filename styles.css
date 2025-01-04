@@ -1,0 +1,66 @@
+body {
+    background: url('https://media.cnn.com/api/v1/images/stellar/prod/200416164101-3-underscored-creative-writing-lead.jpg?q=x_3,y_0,h_1684,w_2992,c_crop') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.glowing-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+    font-family: 'Great Vibes', cursive;
+}
+
+.glowing-login {
+    font-family: 'Great Vibes', cursive;
+}
+
+form {
+    background-color: rgba(29, 29, 29, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
